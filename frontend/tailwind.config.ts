@@ -8,6 +8,9 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      textColor: {
+        DEFAULT: "#000000", // Set black as the default text color
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
